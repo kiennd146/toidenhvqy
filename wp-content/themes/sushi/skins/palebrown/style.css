@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, .boxed .content, .boxed #wrapper { background:#edeae5; }
+
+/********* HEADER **************/
+.top-bar { background:#473c36; border-bottom:1px solid #62544a; }
+.top-bar, .top-bar a, #cart-summary li [class^="icon-"] { color:#c8c5c0; }
+
+table, .woocommerce #payment div.form-row, .woocommerce-page #payment div.form-row { border-color:#BBBBBB; }
+th{ background:#bc5050; color:#ffffff; }
+td { border-color:#BBBBBB; background:#E3E0D9; }
+tbody tr:nth-child(2n+1) td { background:#f1efe9; }
+
+#cart-summary li, .header3 #logo { border-color:#62544a; }
+#cart-summary li:first-child { border-color:#62544a; }
+
+#header-wrapper, #footer { background:#51453d; }
+.banner { border-color:#51453d; }
+
+a, .post-meta ul li a:hover, .breadcrumb span.fa, #menu-main-menu li ul li a:hover, #menu-main-menu li.current_page_item ul li a:hover, #menu-main-menu > li.current-menu-ancestor > a:hover, #menu-main-menu > li.current-menu-ancestor li.current_page_ancestor li a:hover, #menu-main-menu > li.current-menu-ancestor li.current-menu-item li a:hover, #menu-main-menu > li.current-menu-ancestor li.current_page_item a, #menu-main-menu > li.current-menu-ancestor li.current_page_ancestor a, #menu-main-menu > li.current-menu-ancestor li.current-menu-item a, #menu-main-menu > li.current-menu-ancestor li.current-menu-ancestor li.current-menu-item a, .breadcrumb a, .breadcrumb-wrapper h1, #secondary .widget ul li:hover:before, .widget_categories ul li:hover a, #footer ul.social-media li:hover a.fa, .dt-custom-service h3, .pagination-wrapper .pagination li:hover a, ul.commentlist li .author-name a, #respond h3#reply-title small a, .widget_archive ul li a:hover, footer .widget_archive ul li:hover:before, footer .widget_meta li:hover:before, footer .widget_recent_entries li:hover:before, .widget_pages li a:hover:before, footer .widget_nav_menu li a:hover:before, #footer ul li a:hover, #footer ul li h6 a, #footer .widget_tag_cloud a:hover, #secondary .widget ul li a:hover:before,  #secondary .widget ul li a:hover, #secondary .widget ul li h6 a, .dt-service:hover .fa, h3.tribe-events-month-event-title a, footer h2 a, footer h4 a, .star-rating span:before, .star-rating:before, .woocommerce-page .star-rating:before, ul.dt-sc-tabs li a.current { color:#E76C46; }
+
+.breadcrumb span { background:url(images/breadcrumb-seperator.png) no-repeat; }
+.wpcf7-form p select, .variations select, .woocommerce-ordering select, select { background-image: url(images/responsive-nav-bg.jpg); }
+.mobile-menu { background-image:url(images/responsive-nav-bg.png); border-color:#86786e; background-color:#66584e; }
+select.mobile-menu:focus, select.mobile-menu:hover { background-color:#62544a; }
+
+.breadcrumb a:hover, #main-menu #menu-main-menu > li.current-menu-ancestor > a, #main-menu #menu-main-menu > li.current-menu-ancestor > li.current-menu-ancestor > a, #menu-main-menu li a:hover, #cart-summary li a:hover, #main-menu #menu-main-menu > li.current_page_item > a, #main-menu > ul > li.current-menu-item > a  { color:#f6b02c; }
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="tel"], input[type="number"], input[type="range"], input[type="date"], textarea, input.text, .wp-caption, .woocommerce table.cart td.actions .coupon .input-text, .woocommerce-page table.cart td.actions .coupon .input-text, .woocommerce #content table.cart td.actions .coupon .input-text, .woocommerce-page #content table.cart td.actions .coupon .input-text, .woocommerce #content table.cart td.actions .coupon .input-text, .woocommerce table.cart td.actions .coupon .input-text, .woocommerce-page #content table.cart td.actions .coupon .input-text, .woocommerce-page table.cart td.actions .coupon .input-text { background:#E3E0D9; border-color:#DAD6CF; }
+
+.blog-post .post-content .entry-thumb .featured-post, .tagcloud a:hover, .product-thumb .featured, span.featured-product, .theme-btn, input[type="submit"], .products .product-details a.button, .single_add_to_cart_button, .shipping-calculator-form .button, .yith-wcwl-add-to-wishlist a, .add_to_wishlist, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion.active, .dt-sc-toggle-frame h5.dt-sc-toggle.active, ul.dt-sc-tabs-frame li a.current, ul.dt-sc-tabs-vertical-frame li a.current, .woocommerce-tabs ul.tabs li.active a, .summary.entry-summary .yith-wcwl-wishlistexistsbrowse.show, .summary.entry-summary .yith-wcwl-wishlistaddedbrowse.show, .bx-controls-direction a, .dt-sc-button, .widget.woocommerce ul li span.amount, .price_slider_amount button, .summary .price span.amount, .tribe-events-list .tribe-events-event-cost span, .tribe-events-cost, .woocommerce .shop_table.cart th, .product .summary .quantity input[type="button"], .product-quantity .quantity input[type="button"], .tribe-events-button, .tribe-events-sub-nav a, .tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"], .tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"] > a, #tribe-bar-form .tribe-bar-submit input[type="submit"], .tribe-events-nav-next a, .tribe-events-nav-previous a, .tribe-grid-allday .hentry.vevent > div:hover, .tribe-grid-body div[id*="tribe-events-event-"] .hentry.vevent:hover, .datepicker thead tr:first-child th:hover, .datepicker.dropdown-menu td.active.active, #tribe-events-content .tribe-events-tooltip h4, .single-tribe_events a.tribe-events-ical, .single-tribe_events a.tribe-events-ical:hover, .single-tribe_events a.tribe-events-gcal, .single-tribe_events a.tribe-events-gcal:hover, .woocommerce table.cart a.remove, .woocommerce-page table.cart a.remove, .woocommerce #content table.cart a.remove, .woocommerce-page #content table.cart a.remove, .dt-sc-social-icons .fa { background:#e76c46; }
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="email"]:focus, textarea:hover,  select:hover, textarea:focus, input[type="text"]:focus,  textarea:focus,  select:focus { background-color: #dedbd4; }
+
+.woocommerce form.login, .woocommerce-page form.login, .woocommerce form.checkout_coupon, .woocommerce-page form.checkout_coupon, .woocommerce form.register, .woocommerce-page form.register { border-color:#e0dadf; }
+
+.woocommerce .shop_table.cart th, .product .summary .quantity input[type="button"], .product-quantity .quantity input[type="button"], .tribe-grid-allday .hentry.vevent > div, .tribe-grid-body div[id*="tribe-events-event-"] .hentry.vevent, .tribe-events-calendar thead th, .tribe-grid-header, .woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content, .woocommerce-page .widget_price_filter .price_slider_wrapper .ui-widget-content { background:#bc5050; }
+.summary.entry-summary .yith-wcwl-wishlistexistsbrowse.show .feedback, .summary.entry-summary .yith-wcwl-wishlistaddedbrowse.show .feedback { color:#AD3A16; }
+.dt-working-hours span, .dt-sc-specials-list li .item-price { color:#bc5050; }
+
+.megamenu-child-container, #menu-main-menu li.menu-item-simple-parent ul { border-bottom-color:#e5a42a; }
+.menu-thumb .rounded:hover, .catalog-menu .rounded:hover { border-color:#e5a42a; }
+.post-comments { background:#494848; }
+
+.dt-sc-button:hover, .tribe-events-button:hover, .tribe-events-sub-nav a:hover, .single_add_to_cart_button:hover, .add_to_wishlist:hover, button:hover, .button:hover, .dt-sc-social-icons .fa:hover { background-color:#dd613a; }
+
+#footer, #footer p, #footer span, #footer .widget .tweet_list li:before, footer h4, #footer ul.social-media li a, #footer .textwidget ul li, #footer .footer-links li a:hover, #footer a:hover, footer h3.widgettitle, footer h3.widgettitle a, footer .widget_archive ul li a:hover, footer .widget_archive ul li a:before, footer .widget_meta li a:before, footer .widget_recent_entries li a:before, footer .widget_pages li a:before, footer .widget_nav_menu li a:before, footer ul li, #footer ul li a, #footer ul li h6 a:hover, .widget_tag_cloud a, footer .widget_recent_comments ul li:before, footer h3, footer .tribe-countdown-number, footer .tribe-countdown-colon, footer .widget_recent_comments ul li:before, footer ul.dt-sc-fancy-list li:before, #footer p.copyright a:hover, footer .widget_product_search #searchform label { color: #ecd7a9; }
+
+/********* FOOTER **************/
+#footer { border-color:#473c35; }
+.footer-info, footer input[type="text"], footer input[type="email"] { background: #473C35; }
+
+#footer .footer-links li a, .footer-info, #footer p.copyright, #footer p.copyright a { color:#746a63; }
+footer ul.social-media, footer .social-media li { border-color:#726258; }
+.footer-links li { background:url(images/footer-link-sep.png) right no-repeat; }
+
+.widget_recent_posts ul li a img:hover, .widget.widget_flickr .flickrs div img:hover { border-color:#E76C46; }
+.widget.widget_flickr .flickrs div img, .widget_recent_posts ul li a img { border-color:#c2b59d; }
+
+footer h3.widgettitle { border-color:#473c35; }
+
+.intro-text.type2, .dt-sc-team { border-color:#D98F5A; }
+
+.menu-thumb .rounded, .catalog-menu .rounded, .responsive-map, ul.commentlist li .comment-author img, .entry-author-image img, .wpcf7-form p select, .variations select, .woocommerce-ordering select, ul.commentlist li.comment, .sorting-container a { border-color:#dad6cf; }
+
+.hr-title, .gallery-slider li { border-color:#DBD8D2; }
+
+.menu-sidebar li a, .side-nav li a { background:#DBD8D2; }
+.side-nav li a span, .menu-sidebar li a span, .menu-sidebar li a, .side-nav li a { color:#5A5A5A; }
+.side-nav li.current_page_item a, .side-nav li:hover a, .menu-sidebar li.current_page_item a, .menu-sidebar li:hover a { background:#554846; color:#edeae5; }
+
+pre, code, .dt-sc-pullquote1, .dt-sc-pullquote2, .dt-sc-pullquote3, .dt-sc-pullquote6, .post-author-details, .dt-sc-progress, .woocommerce #payment div.payment_box, .woocommerce-page #payment div.payment_box, select { background-color:#E3E0D9;  }
+
+/*----*****---- << Gallery >> ----*****----*/
+.bx-controls-direction a.bx-prev { background-image:url(images/arrow-prev.png); }
+.bx-controls-direction .bx-next { background-image:url(images/arrow-next.png); }
+.bx-controls-direction a.bx-prev:hover, .bx-controls-direction a.bx-next:hover { background-color:#fff; }
+
+.gallery .image-overlay a span, .gallery:hover .gallery-detail .views, .gallery:hover .gallery-detail .views a.likeThis { color:#987654; }
+
+.image-overlay { background:rgba(152, 118, 84, 0.9); background:#987654\0/; *background:#987654; }
+.gallery:hover { background:rgba(152, 118, 84, 0.9); background:#987654\0/; *background:#987654; }
+.sorting-container a:hover, .sorting-container a.active-sort, pre, code, .dt-sc-pullquote1, .dt-sc-pullquote2, .dt-sc-pullquote3, .dt-sc-pullquote4, .dt-sc-pullquote5, .dt-sc-pullquote6 { border-color:#E76C46; }
+.gallery:hover .image-overlay a span:hover { color:#79593a; }
+
+.sorting-container a.active-sort, .sorting-container a:hover { background-color:#E76C46; }
+
+.sorting-container a.active-sort, .sorting-container a:hover, .pagination-wrapper .pagination li.active-page { border:1px solid #c27944; color:#f7f6f2; }
+
+.dt-sc-team { background:#f4f3ee; }
+.dt-custom-service, .dt-service { border-color:#dfdacf; background-color: #f4f3ee; }
+
+ul.dt-sc-tabs-frame li a, ul.dt-sc-tabs-vertical-frame li a, ul.dt-sc-tabs-frame, .woocommerce-tabs ul.tabs, .post-icon-format, .post-meta, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion, .dt-sc-toggle-frame h5.dt-sc-toggle { background:#5a5a5a; }
+ul.dt-sc-tabs-frame li, .woocommerce-tabs ul.tabs li, .post-meta ul li { border-right-color:#6a6a6a; }
+
+.products .product:hover .product-wrapper { background:#5a5a5a; }
+.menu-sidebar li.current_page_item a, .menu-sidebar li:hover a { border-right-color:#776a69; }
+
+.tribe-mini-calendar-nav td, .tribe-mini-calendar-event .list-date, .tribe-mini-calendar .tribe-events-present, .tribe-mini-calendar .tribe-mini-calendar-today { background:#E76C46 !important; }
+.tribe-mini-calendar-dayofweek { background:#BC5050 !important; }
+#secondary .tribe-mini-calendar-event { border-bottom:1px solid #DBD8D2; }
+
+#secondary .tribe-mini-calendar td, #secondary .tribe-mini-calendar th, .breadcrumb-wrapper, .dt-sc-tooltip-top, .dt-sc-tooltip-right, .dt-sc-tooltip-bottom, .dt-sc-tooltip-left { border-color:#DBD8D2; background:#E3E0D9; }
+#secondary tbody tr:nth-child(2n+1) td { background:#F1EFE9; }
+#secondary .tribe-mini-calendar tbody tr:nth-child(2n+1) td.tribe-events-has-events { background:#666666; }
+footer .tribe-mini-calendar td, footer .tribe-mini-calendar th, footer .tribe-mini-calendar-event { border-color:#726258; }
+footer .tribe-mini-calendar td { background:#E3E0D9; }
+#tribe-events-content .tribe-events-tooltip h4, #tribe_events_filters_wrapper .tribe_events_slider_val, .single-tribe_events a.tribe-events-ical, .single-tribe_events a.tribe-events-gcal, .single-tribe_events a.tribe-events-ical, .single-tribe_events a.tribe-events-ical:hover, .single-tribe_events a.tribe-events-gcal, .single-tribe_events a.tribe-events-gcal:hover, #footer .tagcloud a:hover { color:#fff; }
+
+footer #wp-calendar caption, footer #wp-calendar td, footer #wp-calendar th { color:#ECD7A9; border-color:#473C35; }
+#footer .social-media > li:hover { background:#ECD7A9; }
+
+#tribe-bar-form, .tribe-events-list-separator-month { background:#E8E6E1; }
+#tribe-bar-form input[type="text"] { border-color:#d2d2d2; }
+.widget_categories ul li a span { background:#5A5A5A; }
+
+.single-tribe_events .tribe-events-event-meta, .tribe-events-single ul.tribe-related-events li, #tribe-bar-form input[type="text"] { background:#eae8e4; }
+
+#secondary .woocommerce ul.cart_list li img, #secondary .woocommerce-page ul.cart_list li img, #secondary .woocommerce ul.product_list_widget li img, #secondary .woocommerce-page ul.product_list_widget li img, #secondary h3.widgettitle, .social-media li, ul.social-media, #secondary .widget_popular_entries ul li a img, .single-tribe_events .tribe-events-event-meta { border-color:#DBD8D2; }
+#secondary .woocommerce ul.cart_list li img:hover, #secondary .woocommerce-page ul.cart_list li img:hover, #secondary .woocommerce ul.product_list_widget li img:hover, #secondary .woocommerce-page ul.product_list_widget li img:hover, #secondary .widget_popular_entries ul li a img:hover { border-color:#E76C46; }
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle { background:url(images/filter.png) no-repeat; }
+.woocommerce .widget_price_filter .ui-slider .ui-state-active, .woocommerce .widget_price_filter .ui-slider .ui-state-focus, .woocommerce .widget_price_filter .ui-slider .ui-state-hover { background:url(images/filter-active.png) no-repeat; }
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-range { background:#dbd8d2; }
+
+.woocommerce #payment div.payment_box:after, .woocommerce-page #payment div.payment_box:after { border-color:#E3E0D9; }
+.products .product .product-title { border-color:#D5D4D0; }

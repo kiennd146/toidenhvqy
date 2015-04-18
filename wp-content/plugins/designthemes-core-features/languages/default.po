@@ -1,0 +1,293 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DT Core Plugin\n"
+"POT-Creation-Date: 2014-02-21 19:39+0530\n"
+"PO-Revision-Date: 2014-02-21 19:39+0530\n"
+"Last-Translator: DesignThemes <ram@iamdesigning.com>\n"
+"Language-Team: DesignThemes <ram@iamdesigning.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: E:\\wamp\\www\\dt-sushi\\wp-content\\plugins"
+"\\designthemes-core-features\n"
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:95
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:114
+msgid "Custom Icon Class"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:99
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:118
+msgid "Add custom icon class"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:145
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:147
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:157
+msgid "Catalog"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:146
+msgid "All Catalog"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:148
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-gallery-post-type.php:68
+msgid "Add New"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:149
+msgid "Add New Item"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:150
+msgid "Edit Item"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:151
+msgid "New Item"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:152
+msgid "View Item"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:153
+msgid "Search Items"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:154
+msgid "No Items found"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:155
+msgid "No Items found in Trash"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:156
+msgid "Parent Item:"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:203
+msgid "Catalog Options"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-catalog-post-type.php:247
+msgid "No Image"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-gallery-post-type.php:65
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-gallery-post-type.php:77
+msgid "Galleries"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-gallery-post-type.php:66
+msgid "All Galleries"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-gallery-post-type.php:67
+msgid "Gallery"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-gallery-post-type.php:69
+msgid "Add New Gallery"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-gallery-post-type.php:70
+msgid "Edit Gallery"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-gallery-post-type.php:71
+msgid "New Gallery"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-gallery-post-type.php:72
+msgid "View Gallery"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-gallery-post-type.php:73
+msgid "Search Galleries"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-gallery-post-type.php:74
+msgid "No Galleries found"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-gallery-post-type.php:75
+msgid "No Galleries found in Trash"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-gallery-post-type.php:76
+msgid "Parent Gallery:"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/dt-gallery-post-type.php:124
+msgid "Default Options"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_catalog_default_metabox.php:9
+msgid "Sub Title"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_catalog_default_metabox.php:14
+msgid "You can given your sub title"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_catalog_default_metabox.php:18
+msgid "Price"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_catalog_default_metabox.php:23
+msgid "Enter item price here (eg : $12.50)"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_catalog_default_metabox.php:27
+msgid "Dummy Price"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_catalog_default_metabox.php:32
+msgid "Enter dummy item price here (eg : $12.50)"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_catalog_default_metabox.php:36
+msgid "Link"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_catalog_default_metabox.php:41
+msgid "Enter item link here (eg : http://somedomain.com)"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_gallery_default_metabox.php:9
+msgid "Client Name"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_gallery_default_metabox.php:14
+msgid "You can given your client name"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_gallery_default_metabox.php:18
+msgid "Location"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_gallery_default_metabox.php:23
+msgid "You can given your client location"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_gallery_default_metabox.php:27
+msgid "Project Url"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_gallery_default_metabox.php:32
+msgid "You can given your client's project url"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_gallery_default_metabox.php:40
+msgid "Layout"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_gallery_default_metabox.php:60
+msgid "You can choose between a left, right or full width."
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_gallery_default_metabox.php:69
+msgid "Show Related Projects"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_gallery_default_metabox.php:79
+msgid "Would you like to show the related projects at the bottom"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_gallery_default_metabox.php:87
+msgid "Show Social Share"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_gallery_default_metabox.php:96
+msgid "Would you like to show the social share at the bottom"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_gallery_default_metabox.php:104
+msgid "Allow Comments"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_gallery_default_metabox.php:116
+msgid "YES! to allow comments on this page."
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_gallery_default_metabox.php:124
+msgid "Images"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_gallery_default_metabox.php:128
+msgid "Click Here to Add Images"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/metaboxes/dt_gallery_default_metabox.php:129
+msgid "Click Here to Add Video"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/single-dt_galleries.php:50
+msgid "Related Projects"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/taxonomy-catalog_entries.php:11
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/taxonomy-gallery_entries.php:11
+msgid "Category Archives of : "
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/inc/gallery-archive-layout.php:86
+msgid "Nothing Found."
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/inc/gallery-archive-layout.php:87
+msgid "Apologies, but no results were found for the requested archive."
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/inc/gallery-single-layout-one.php:38
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/inc/gallery-single-layout-two.php:51
+msgid "Pages:"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/inc/gallery-single-layout-one.php:39
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/inc/gallery-single-layout-two.php:52
+msgid "Edit"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/inc/gallery-single-layout-one.php:43
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/inc/gallery-single-layout-two.php:36
+msgid "Project Details"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/inc/gallery-single-layout-one.php:45
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/inc/gallery-single-layout-two.php:39
+msgid "Client: "
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/inc/gallery-single-layout-one.php:46
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/inc/gallery-single-layout-two.php:40
+msgid "Location: "
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/inc/gallery-single-layout-one.php:47
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/inc/gallery-single-layout-two.php:41
+msgid "Posted On: "
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/inc/gallery-single-layout-one.php:50
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/custom-post-types/templates/inc/gallery-single-layout-two.php:44
+msgid "View Project"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/shortcodes/shortcodes.php:441
+msgid "top"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/shortcodes/shortcodes.php:589
+msgid "Gift"
+msgstr ""
+
+#: E:\wamp\www\dt-sushi\wp-content\plugins\designthemes-core-features/shortcodes/shortcodes.php:594
+msgid "Buy Now"
+msgstr ""

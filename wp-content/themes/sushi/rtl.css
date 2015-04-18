@@ -1,0 +1,1157 @@
+/*
+Theme Name: Sushi
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+@charset "utf-8";
+/*----*****---- << Font Awesome >> ----*****----*/
+
+#footer ul.list li:before, .post-meta ul li.tags:before, .post-meta ul li.cat:before, .dt-sc-tb-content li:before, .dt-sc-specials-list li:before, .widget_categories ul li a:before, .widget_tweetbox ul li:before, h5.toggle:before, h5.dt-sc-toggle-accordion:before, .commentmetadata:before, .comment-reply-link:after, .widget_product_categories li a:before, .summary .tags:before, .star-rating span:before, .star-rating:before, .widget_archive ul li a:before, .widget_meta li a:before, .widget_recent_entries li a:before, .widget_pages li a:before, .widget_nav_menu li a:before, .widget_rss ul li:before, .widget_recent_comments ul li:before, .event-meta.fa:before {
+	margin-left:auto;
+	margin-right: 5px;
+}
+
+body { text-align:right; }
+
+/*----*****---- << Headings >> ----*****----*/
+
+.hr-title {
+	float:right;
+}
+
+/*----*****---- << Text Elements >> ----*****----*/
+
+ul li ul {
+	padding-right:20px;
+	padding-left: 0;
+}
+
+ol {
+	padding-right:20px;
+	padding-left: 0;
+}
+
+blockquote {
+	padding:25px 50px 25px 25px;
+}
+
+blockquote:before {
+	right: 20px;
+	left: auto;
+}
+
+blockquote span {
+	float:right;
+	margin:0px 0px 0px 10px;
+}
+
+blockquote cite {
+	text-align: left;
+}
+
+blockquote.alignright {
+	margin-left:20px;
+	text-align:right;
+	float:right;
+	margin-right: auto;
+}
+
+blockquote.alignleft {
+	margin-right:20px;
+	text-align:right;
+	float:left;
+	margin-left: auto;
+}
+
+blockquote.aligncenter {
+	text-align:right;
+}
+
+pre, code {
+	border-right:3px solid #E76C46;
+	border-left: none;
+}
+
+hr {
+	float:right;
+}
+
+/* due to IE <HR> margin bugs I had to made classed and apply them to div to achieve the effect of a <HR> */
+	
+.hr {
+	float:right;
+}
+
+.hr-border {
+	float:right;
+}
+
+.hr-invisible {
+	float:right;
+}
+
+.hr-invisible-small {
+	float:right;
+}
+
+.hr-invisible-very-small {
+	float:right;
+}
+
+.hr.top, .hr-border.top {
+	background-position:left center;
+	text-align:left;
+}
+
+.hr.top a, .hr-border.top a {
+	padding-right:5px;
+	left:-21px;
+	right: auto;
+	padding-left: 0;
+}
+
+.hr-border.top a {
+	left:-23px;
+	right: auto;
+}
+
+.float-left {
+	float:right;
+}
+
+.float-right {
+	float:left;
+}
+
+.post-edit-link {
+	float:left;
+}
+
+.page-link {
+	float:right;
+}
+
+.page-link a {
+	margin-left:3px;
+	margin-right:3px;
+}
+
+.page-link strong {
+	margin-left:3px;
+	margin-right: auto;
+}
+
+.page-link span {
+	float:right;
+	margin-left:10px;
+	margin-right: auto;
+}
+
+/*----*****---- << Tables >> ----*****----*/
+	
+table {
+	border-left:0px;
+	border-right: 1px solid;
+}
+
+td {
+	border-left:1px solid;
+	border-right: none;
+}
+
+#wp-calendar caption {
+	text-align:right;
+}
+
+/*----*****---- << Definition Lists >> ----*****----*/
+
+/*----*****---- << Forms >> ----*****----*/
+
+div.wpcf7-validation-errors {
+	float:right;
+}
+
+input[type=submit], button, input[type=button] {
+	float:left;
+}
+
+/*----*****---- << Images >> ----*****----*/
+
+.wp-caption {
+	padding:5px 5px 7px 7px;
+}
+
+.alignright, img.alignright {
+	float: right;
+	margin-left: 20px;
+	margin-right: auto;
+}
+
+.alignleft, img.alignleft {
+	float: left;
+	margin-right: 20px;
+	margin-left: auto;
+}
+
+.aligncenter, img.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*----*****---- << Widget >> ----*****----*/
+.widget {
+	float: right;
+}
+
+.widget ul {
+	float: right;
+}
+
+.widget ul li {
+	float: right;
+}
+
+.widget ul ul {
+	margin-right:20px;
+	margin-left: auto;
+}
+
+.wrapper, header, .top-bar, .menu-main-menu-container, #footer, .footer-info, .content, .breadcrumb {
+	float:right;
+}
+
+#primary {
+	float: right;
+}
+
+#primary.with-right-sidebar {
+	float: left;
+}
+
+#secondary {
+	float: right;
+	margin: 0 0px 0 20px;
+}
+
+#secondary.right-sidebar {
+	margin: 0 0 0 20px;
+}
+
+#cart-summary li {
+	float: right;
+	border-left:1px solid;
+	border-right: none;
+}
+
+#cart-summary li:first-child {
+	border-right:1px solid;
+	border-left: none;
+}
+
+#cart-summary li .fa {
+	margin-left: auto;
+	margin-right: 6px;
+}
+
+#logo {
+	float: right;
+}
+
+#logo a {
+	float:right;
+}
+
+#logo a img {
+	float:right;
+}
+
+/*----*****---- << Header1 >> ----*****----*/
+#header-wrapper, #header-wrapper header {
+	float: right !important;
+}
+#header-wrapper-sticky-wrapper { width:100%; }
+.header3 #logo {
+	float:right;
+}
+
+.header2 #main-menu ul li span.menu-icon {
+	right: 0;
+	left: 0;
+}
+
+.header3 #main-menu > ul.menu > li > a .menu-icon {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+/*----*****---- << menu >> ----*****----*/
+#main-menu > ul.menu {
+	float:left;
+}
+
+#main-menu > ul.menu > li {
+	float:right;
+}
+
+#menu-main-menu li.menu-item-simple-parent ul {
+	right:0;
+	padding-right:0;
+	border-right:1px solid #dbd8d2;
+	border-left:1px solid #dbd8d2;
+	left: auto;
+	padding-left: 0;
+}
+
+#main-menu ul li.menu-item-simple-parent ul li a {
+	padding: 10px 12px 10px 0;
+}
+
+#main-menu ul li.menu-item-simple-parent ul li a:before {
+	right:0px;
+	left: auto;
+}
+
+#main-menu ul li.menu-item-simple-parent ul li ul {
+	right:200px;
+	left: auto;
+}
+
+#main-menu ul li.menu-item-simple-parent:last-child ul li ul {
+	right: inherit;
+	left: 200px;
+}
+
+#main-menu ul li.menu-item-simple-parent:last-child ul {
+	right: inherit;
+	left: 0;
+}
+
+.mobile-menu {
+	background-position:center left;
+	padding:15px 5px 15px 14px;
+}
+
+/*----*****---- << sticky menu >> ----*****----*/
+
+/****** Mega Menu *****/
+
+.megamenu-child-container {
+	right:0px;
+	float:right;
+	left: auto;
+}
+
+.megamenu-child-container > ul.sub-menu > li {
+	float:right;
+}
+
+.megamenu-child-container ul.sub-menu > li > ul li a {
+	padding:0px 12px 10px 0px;
+}
+
+.megamenu-child-container ul.sub-menu > li > ul li a:before {
+	right:0px;
+	left: auto;
+}
+
+.megamenu-child-container ul.sub-menu > li > ul > li > ul {
+	padding-right:20px;
+	padding-left: 0;
+}
+
+/**** Banner ****/
+.banner {
+	float: right;
+}
+
+/*----*****---- << breadcrumb >> ----*****----*/
+
+.breadcrumb span {
+	float: right;
+}
+
+.breadcrumb span.fa {
+	margin-right: 12px;
+	margin-left: auto;
+}
+
+.breadcrumb h1 {
+	float:right;
+}
+
+.breadcrumb a {
+	float:right;
+}
+
+/*----*****---- << secondary >> ----*****----*/
+
+.widget_categories ul li a span {
+	left:0;
+	right: auto;
+}
+
+/*.widget_categories ul li a:before {
+	margin-left:10px;
+	margin-right: auto;
+}
+*/
+#secondary .testi-author {
+	float:right;
+}
+
+#secondary .testi-author:after {
+	border-left: 15px solid rgba(0, 0, 0, 0);
+	left: 0;
+	right: auto;
+	border-right: none;
+}
+
+#secondary .testi-author img {
+	float:right;
+	margin-left:9px;
+	margin-right: auto;
+}
+
+.widget_tweetbox ul li:before {
+	float:right;
+}
+
+.widget_tweetbox ul li p {
+	padding-right:24px;
+	padding-left: 0;
+}
+
+/*----*****---- << footer >> ----*****----*/
+
+.widget.widget_flickr .flickrs div {
+	float:right;
+	margin:0px 0px 10px 10px;
+}
+
+.zn_mailchimp_result {
+	float: right;
+}
+
+footer .widget_text .fa {
+	float: right;
+	margin-left: 5px;
+	margin-right: auto;
+}
+
+footer ul.social-media {
+	float:right;
+}
+
+.social-media li {
+	border-left:1px solid #726258;
+	border-right: none;
+}
+
+.social-media li img {
+	right:0px;
+	left: auto;
+}
+
+.social-media li:hover img:first-child {
+	right:0;
+	left: auto;
+}
+
+
+.social-bookmark, #primary ul.social-media {
+	float:right;
+	padding-right:0;
+	padding-left: 0;
+}
+
+.fb-root, .fb-like, #___plusone_0, .twitter-share-button, #iframe-stmblpn-widget-1, .IN-widget, .social-bookmark img, .pin-it-button, .db-wrapper {
+	float:right !important;
+	margin-left:10px !important;
+	margin-right: auto;
+}
+
+#footer ul.list li:before {
+	float:right;
+}
+
+.copyleft {
+	float:right;
+}
+
+.footer-links {
+	float:left;
+}
+
+.footer-links li {
+	float:right;
+	background:url(images/footer-link-sep.png) left no-repeat;
+}
+
+.footer-links li a {
+	padding:0 7px 0 12px;
+}
+
+/*----*****---- << Blog >> ----*****----*/
+
+.blog-post .post-details {
+	float:right;
+}
+
+.blog-post .post-content {
+	float:right;
+	margin-right:20px;
+	margin-left: auto;
+}
+
+.blog-post .post-content .entry-thumb .featured-post, .product-thumb .featured, span.featured-product {
+	left:0;
+	right: auto;
+}
+
+/**************** dt-sc-one-third **********************/
+
+.dt-sc-one-third .post-details .date, .dt-sc-one-half.with-sidebar .post-details .date {
+	float:right;
+}
+
+.dt-sc-one-third .post-content, .dt-sc-one-half.with-sidebar .post-content {
+	margin-right:0;
+	margin-left: auto;
+}
+
+.dt-sc-one-third .post-comments, .dt-sc-one-half.with-sidebar .post-comments, .dt-sc-one-third .ico-format, .dt-sc-one-half.with-sidebar .ico-format {
+	float:left;
+}
+
+.blog-post .date span {
+	float:right;
+	margin-left:5px;
+	margin-right: auto;
+}
+
+.post-comments a i {
+	margin-right:2px;
+	margin-left: auto;
+}
+
+.ico-format, .post-comments {
+	float: right;
+}
+
+.post-meta {
+	float:right;
+}
+
+.post-meta ul {
+	margin-right:11px;
+	margin-left: auto;
+}
+
+.post-meta ul li {
+	margin-right:6px;
+	border-right:1px solid #6a6a6a;
+	padding:0px 6px 0px 0px;
+	margin-left: auto;
+	border-left: none;
+}
+
+.pagination-wrapper {
+	float:right;
+}
+
+.pagination-wrapper span {
+	float:right;
+	margin-left:28px;
+	margin-right: auto;
+}
+
+.pagination-wrapper .pagination {
+	float:right;
+}
+
+.pagination-wrapper .pagination li {
+	float:right;
+}
+
+.pagination-wrapper .pagination li.active-page, .pagination-wrapper .pagination li a {
+	float:right;
+}
+
+/*----*****---- << Blog Detail >> ----*****----*/
+.blog-post blockquote {
+	border-right:5px solid #e76c46;
+	padding:0 20px 0 0;
+	border-left: none;
+}
+
+/*----*****---- << Blog Comment Entries >> ----*****----*/	
+		
+.commententries {
+	float:right;
+}
+
+ul.commentlist {
+	float:right;
+}
+
+ul.commentlist li.comment {
+	padding:0px 112px 0px 0px;
+}
+
+ul.commentlist li ul.children {
+	float:right;
+}
+
+ul.commentlist li .respond {
+	margin-right:69px;
+	margin-left: auto;
+}
+
+ul.commentlist li .comment-author {
+	right:0px;
+	left: auto;
+}
+
+ul.commentlist li .comment-author img {
+	float:right;
+}
+
+ul.commentlist li .commentmetadata {
+	margin-left: 5px;
+    padding-left: 9px;
+}
+
+.commentmetadata:before {
+	right:auto;
+	left: 0;
+}
+
+#respond {
+	float:right;
+}
+
+.comment-reply-link {
+	text-align: left;
+}
+
+.comment-reply-link:after {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+.post-author-details {
+	float:right;
+}
+
+.entry-author-image {
+	float:right;
+	margin-left:15px;
+	margin-right: auto;
+}
+
+.author-desc {
+	float:right;
+}
+
+.catalog-menu img {
+	float:right;
+}
+
+.catalog-menu {
+	float: right;
+}
+
+.catalog-menu .rounded {
+	margin-left:20px;
+	float:right;
+	margin-right: auto;
+}
+
+/*----*****---- << Sushi Offer >> ----*****----*/
+	.dt-sc-offer-list li {
+	float:right;
+	padding-right:49px;
+	padding-left: 0;
+}
+
+.dt-sc-offer-list li span {
+	right: 0;
+	margin-left: 10px;
+	left: auto;
+	margin-right: auto;
+}
+
+/*----*****---- << Menu >> ----*****----*/
+	.menu-list {
+	float:right;
+}
+
+.menu-thumb {
+	float: right;
+	margin-left: 2.9%;
+	margin-right: auto;
+}
+
+.menu-details {
+	float: right;
+}
+
+.menu-title {
+	float:right;
+}
+
+.menu-title h3, .menu-title span {
+	float:right;
+}
+
+/*----*****---- << Contact >> ----*****----*/
+
+/*----*****---- << Sushi w-hours >> ----*****----*/
+
+.dt-working-hours span {
+	float:left;
+}
+
+/*----*****---- << side-nav >> ----*****----*/
+	
+	.side-nav {
+	float:right;
+}
+
+.menu-sidebar li.current_page_item a, .menu-sidebar li:hover a {
+	border-left:5px solid #776a69;
+	border-right: none;
+}
+
+.side-nav li a span, .menu-sidebar li a span {
+	float: right;
+	margin: 0px 8px 0 22px;
+}
+
+.menu-sidebar li a span {
+	margin-left:14px;
+	margin-right: 22px;
+	margin-top:7px;
+}
+
+.with-side-nav .hr-title {
+	text-align:right;
+}
+
+.with-side-nav img {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.with-side-nav {
+	float: right;
+	margin-right: 15px;
+	margin-left: auto;
+}
+
+/*----*****---- << 404 >> ----*****----*/
+
+.error-404 .error {
+	float:right;
+}
+
+.error-404 .error img {
+	float:right;
+	margin-left:15px;
+	margin-right: auto;
+}
+
+.error-404 #searchform input[type="submit"] {
+	float:left;
+}
+
+.grey-bg {
+	float:left;
+}
+
+.with-right-sidebar .download-ico, .with-left-sidebar .download-ico {
+	padding-right:70px;
+	padding-left: 0;
+}
+
+.download-ico {
+	padding-right:0;
+}
+
+.menu-ico {
+	padding-right:0;
+}
+
+/*----*****---- << reservation >> ----*****----*/
+	.reservation p {
+	float:right;
+}
+
+.reservation p label {
+	margin-left:10px;
+	float:right;
+	margin-right: auto;
+}
+
+.reservation p input, .reservation p textarea {
+	float:right;
+}
+
+.wpcf7-form p select, .variations select, .woocommerce-ordering select {
+	background-position: left center;
+}
+
+div.wpcf7-response-output {
+	float:right;
+}
+
+/*----*****---- << Recent Post >> ----*****----*/
+
+ul.recent-post li a img {
+	float:right;
+	margin-left:10px;
+	margin-right: auto;
+}
+
+/*----*****---- << Recent Post >> ----*****----*/
+
+.widget_product_categories li a {
+	float:right;
+}
+
+.widget_product_categories li a span {
+	float:left;
+	left:0;
+	right: auto;
+}
+
+.widget_recent_posts ul li a {
+	float:right;
+	margin-left:10px;
+	margin-right: auto;
+}
+
+#secondary .widget_recent_posts ul li h6 {
+	float:right;
+}
+
+/*----*****---- << Recent Post >> ----*****----*/
+.product .images {
+	float: right;
+	margin: 0 0 0 2%;
+}
+
+.summary.entry-summary {
+	float: right;
+}
+
+.summary .price {
+	float:left;
+}
+
+.entry-product-title {
+	float:right;
+}
+
+#toTop {
+	left:30px;
+	background:url(images/ui.totop.png) no-repeat right top;
+	right: auto;
+}
+
+#toTopHover {
+	background:url(images/ui.totop.png) no-repeat right -40px;
+	float:right;
+}
+
+/** Social Icons  **/
+
+.dt-sc-social-bookmarks {
+	float:right;
+}
+
+.dt-sc-social-bookmarks li img {
+	right: 0;
+	left: auto;
+}
+
+/*----*****---- << Style Picker >> ----*****----*/		
+.dt-style-picker-wrapper {
+	right:0px;
+	left: auto;
+}
+
+#dt-style-picker {
+	float:right;
+}
+
+#dt-style-picker ul {
+	float:right;
+}
+
+#dt-style-picker .hr {
+	float:right;
+}
+
+.style-picker-ico {
+	right:225px;
+	left: auto;
+}
+
+/* -- stars -- */
+
+.star-rating:before, .woocommerce-page .star-rating:before {
+	float: left;
+	left: 0;
+}
+
+.star-rating span {
+	float: right;
+	right: 0;
+	left: auto;
+}
+
+.star-rating span:before {
+	left: 0;
+}
+
+/*** Events ***/
+
+#tribe-events-content .tribe-events-calendar td, #tribe-events-content .tribe-events-calendar div[id*="tribe-events-event-"] h3.tribe-events-month-event-title {
+	text-align:right;
+}
+
+.tribe-events-grid .tribe-grid-header .tribe-grid-content-wrap .column {
+	border-right-color:#fff;
+}
+
+.tribe-events-grid .tribe-grid-content-wrap .column, .column.tribe-week-grid-hours {
+	margin-right:0;
+	margin-left: auto;
+}
+
+.tribe-events-day .tribe-events-day-time-slot .vevent {
+	margin-right:0;
+	margin-left: auto;
+}
+
+#tribe-events-photo-events {
+	margin-left:0;
+	margin-right: auto;
+}
+
+/** Widget **/
+
+/*----*****---- << Portfolio >> ----*****----*/
+	
+.sorting-container {
+	float:right;
+}
+
+.sorting-container a {
+	margin:0px 0px 10px 5px;
+	float:right;
+}
+
+.gallery-container {
+	float:right;
+}
+
+.gallery {
+	margin-right:0;
+	margin-left: auto;
+}
+
+.gallery .gallery-thumb {
+	float: right;
+}
+
+.gallery-thumb > img {
+	float:right;
+}
+
+.gallery-title {
+	float:right;
+}
+
+.gallery-detail {
+	float:right;
+}
+
+.gallery-detail .views {
+	float:left;
+	margin-left:9px;
+	margin-right: auto;
+}
+
+.image-overlay {
+	float: right;
+	right: 0;
+	left: auto;
+}
+
+.gallery .image-overlay a.link {
+	right:0;
+	left: auto;
+}
+
+.gallery .image-overlay a.zoom {
+	left:0;
+	right: auto;
+}
+
+.gallery.dt-sc-one-third:hover .image-overlay a.link {
+	right:33%;
+	left: auto;
+}
+
+.gallery.dt-sc-one-third:hover .image-overlay a.zoom {
+	left:33%;
+	right: auto;
+}
+
+.gallery.dt-sc-one-third.with-sidebar:hover .image-overlay a.link {
+	right:27%;
+	left: auto;
+}
+
+.gallery.dt-sc-one-third.with-sidebar:hover .image-overlay a.zoom {
+	left:27%;
+	right: auto;
+}
+
+.gallery.dt-sc-one-column:hover .image-overlay a.link {
+	right:44%;
+	left: auto;
+}
+
+.gallery.dt-sc-one-column:hover .image-overlay a.zoom {
+	left:44%;
+	right: auto;
+}
+
+.gallery.dt-sc-one-column.with-sidebar:hover .image-overlay a.link {
+	right:42%;
+	left: auto;
+}
+
+.gallery.dt-sc-one-column.with-sidebar:hover .image-overlay a.zoom {
+	left:42%;
+	right: auto;
+}
+
+.gallery.dt-sc-one-half:hover .image-overlay a.link {
+	right:38%;
+	left: auto;
+}
+
+.gallery.dt-sc-one-half:hover .image-overlay a.zoom {
+	left:38%;
+	right: auto;
+}
+
+.gallery.dt-sc-one-half.with-sidebar:hover .image-overlay a.link {
+	right:35%;
+	left: auto;
+}
+
+.gallery.dt-sc-one-half.with-sidebar:hover .image-overlay a.zoom {
+	left:35%;
+	right: auto;
+}
+
+.gallery.dt-sc-one-fourth:hover .image-overlay a.link {
+	right:27%;
+	left: auto;
+}
+
+.gallery.dt-sc-one-fourth:hover .image-overlay a.zoom {
+	left:27%;
+	right: auto;
+}
+
+.gallery.dt-sc-one-fourth.with-sidebar:hover .image-overlay a.link {
+	right:19%;
+	left: auto;
+}
+
+.gallery.dt-sc-one-fourth.with-sidebar:hover .image-overlay a.zoom {
+	left:19%;
+	right: auto;
+}
+
+.gallery-slider li img {
+	float:right;
+}
+
+.left-gallery {
+	float: left !important;
+	margin-right: 2%;
+	margin-left: 0;
+}
+
+/********** Shortcodes ************/
+
+ul.dt-sc-tabs-frame li, .woocommerce-tabs ul.tabs li { float:right; border-left:1px solid #6A6A6A; border-right:none; }
+
+ul.dt-sc-fancy-list li:before { right:0; }
+ul.dt-sc-fancy-list.arrow li { padding-left:0; padding-right:15px; }
+ul.dt-sc-fancy-list li { padding-left:0; padding-right:20px; }
+
+.products .product span.price { float:left !important; }
+
+p.copyright { float:right; }
+
+.woocommerce .woocommerce-ordering select, .woocommerce-page .woocommerce-ordering select { text-align:center; }
+.woocommerce table.cart td { border-left:none; }
+
+.lost_password { margin-top:19px; float:left; margin-left:9px; }
+
+.woocommerce div.product div.images, .woocommerce-page div.product div.images, .woocommerce #content div.product div.images, .woocommerce-page #content div.product div.images, .summary .product_title.entry-title, .summary.entry-summary .yith-wcwl-add-to-wishlist, .woocommerce div.product form.cart div.quantity, .woocommerce-page div.product form.cart div.quantity, .woocommerce #content div.product form.cart div.quantity, .woocommerce-page #content div.product form.cart div.quantity, .woocommerce div.product form.cart .button, .woocommerce-page div.product form.cart .button, .woocommerce #content div.product form.cart .button, .woocommerce-page #content div.product form.cart .button, .dt-sc-progress .dt-sc-bar, .dt-sc-specials-list li:before, .dt-sc-specials-list li .item-name { float:right !important; }
+
+.woocommerce div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page #content div.product div.summary, .dt-sc-specials-list li .item-price { float:left !important; }
+
+.product-details .yith-wcwl-add-to-wishlist { left:-38px; }
+
+.product .product-wrapper:hover .product-details .yith-wcwl-add-to-wishlist, .products .product:hover .product-details .yith-wcwl-add-to-wishlist { left:0; }
+
+.products .product .product-details .cls-non-veg, .products .product .product-details .cls-veg { left:10px; }
+
+.products .product .product-details .cls-non-veg, .products .product .product-details .cls-veg, .product-details .yith-wcwl-add-to-wishlist, .product .product-wrapper:hover .product-details .yith-wcwl-add-to-wishlist, .products .product:hover .product-details .yith-wcwl-add-to-wishlist { right:inherit !important; }
+
+.cls-non-veg, .cls-veg { text-indent:9999px !important; }
+
+.product-rating-wrapper, .dt-sc-error-box:before, .dt-sc-warning-box:before, .dt-sc-success-box:before, .dt-sc-info-box:before { right:10px; }
+
+.product-rating-wrapper, .product .product-thumb-wrapper .cls-veg, .product .product-thumb-wrapper .cls-non-veg, .product-thumb-wrapper .featured-tag, .product-thumb-wrapper .out-of-stock, .product-thumb-wrapper .onsale { left:inherit !important; }
+
+a.add_to_wishlist, .yith-wcwl-wishlistexistsbrowse.show a, .yith-wcwl-wishlistaddedbrowse.show a { height:12px; }
+
+.gallery-arrows a, a.add_to_wishlist, .yith-wcwl-wishlistexistsbrowse.show a, .yith-wcwl-wishlistaddedbrowse.show a { font-size:0; }
+
+.product .product-thumb-wrapper .cls-veg, .product .product-thumb-wrapper .cls-non-veg, .featured-tag { right:0; }
+
+.summary a.add_to_wishlist, .summary .yith-wcwl-wishlistexistsbrowse.show a, .summary .yith-wcwl-wishlistaddedbrowse.show a { font-size:13px; height:auto; }
+
+.product .product-thumb-wrapper .cls-veg, .product .product-thumb-wrapper .cls-non-veg { right:37.5%; }
+
+.product-thumb-wrapper .out-of-stock, .product-thumb-wrapper .onsale { right:0; }
+
+.woocommerce div.product form.cart div.quantity, .woocommerce-page div.product form.cart div.quantity, .woocommerce #content div.product form.cart div.quantity, .woocommerce-page #content div.product form.cart div.quantity { margin:0 0px 0 10px !important; }
+
+.dt-sc-progress .dt-sc-bar { border-radius:0px 5px 5px 0px; }
+.dt-sc-progress .dt-sc-bar-text { text-align:right; }
+
+.pp_woocommerce #respond #commentform, .pp_woocommerce .comment-reply-title { text-align:right; }
+.pp_woocommerce p.stars span, .pp_woocommerce p.stars span { float:right !important; }
+.pp_woocommerce #commentform { float:right; width:100%; }'
+.pp_description { float:right; }
+
+.intro-text.type2 { border-right:5px solid; border-left:none !important; }
+.dt-sc-specials-list li:before { margin-left:5px; }
+
+.dt-sc-error-box:before, .dt-sc-warning-box:before, .dt-sc-success-box:before, .dt-sc-info-box:before { left:inherit !important; }
+.dt-sc-error-box, .dt-sc-warning-box, .dt-sc-success-box, .dt-sc-info-box { padding:15px 39px 15px 15px; }

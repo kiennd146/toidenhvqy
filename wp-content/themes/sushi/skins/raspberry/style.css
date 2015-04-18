@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, .boxed .content, .boxed #wrapper { background:#d3d5be; }
+.woocommerce .star-rating:before, .woocommerce-page .star-rating:before { }
+
+/********* HEADER **************/
+.top-bar { background:#771537; border-bottom:1px solid #6b1331; }
+.top-bar, .top-bar a, #cart-summary li [class^="icon-"] { color:#ffffff; }
+
+table{ border-color:#BBBBBB; }
+th{ background:#A33457; color:#ffffff; }
+td { border-color:#BBBBBB; background:#E3E0D9; }
+tbody tr:nth-child(2n+1) td { background:#f1efe9; }
+
+#cart-summary li:first-child, #cart-summary li, .banner, .header3 #logo { border-color:#6b1331; }
+
+#header-wrapper, #footer, .menu-sidebar li a, .side-nav li a, .tribe-grid-allday .hentry.vevent > div, .tribe-grid-body div[id*="tribe-events-event-"] .hentry.vevent, .tribe-events-calendar thead th, .tribe-grid-header, .woocommerce .shop_table.cart th, .product .summary .quantity input[type="button"], .product-quantity .quantity input[type="button"], .widget.woocommerce ul li span.amount, .price_slider_amount button, .summary .price span.amount, .tribe-events-list .tribe-events-event-cost span, .tribe-events-cost, .sorting-container a.active-sort, .sorting-container a:hover, .bx-controls-direction a, .woocommerce table.cart a.remove, .woocommerce-page table.cart a.remove, .woocommerce #content table.cart a.remove, .woocommerce-page #content table.cart a.remove, .dt-sc-social-icons .fa { background:#a33457; }
+
+.product .summary .quantity input[type="button"]:hover, .product-quantity .quantity input[type="button"]:hover, footer .price_slider_amount button { background:#771537; }
+
+.menu-sidebar li a, .side-nav li a, .side-nav li a span, .menu-sidebar li a span { color:#fff; }
+.side-nav li.current_page_item a, .side-nav li:hover a, .menu-sidebar li.current_page_item a, .menu-sidebar li:hover a { background:#771537; color:#fff; }
+
+.sorting-container a.active-sort, .sorting-container a:hover, .pagination-wrapper .pagination li.active-page, footer input[type="text"], footer input[type="email"], #main-menu .megamenu-child-container > ul.sub-menu > li > a, #main-menu .megamenu-child-container > ul.sub-menu > li > .nolink-menu, #menu-main-menu > li.current-page-ancestor ul li.current_page_ancestor > a, #menu-main-menu > li.current_page_item .megamenu-child-container ul li.menu-item-depth-1 > a:hover, #menu-main-menu > li.current-menu-ancestor .megamenu-child-container ul li.menu-item-depth-1 > a:hover, #menu-main-menu > li.current-menu-ancestor .megamenu-child-container ul li.menu-item-depth-1.current_page_item > a { color:#fff; }
+
+a, .post-meta ul li a:hover, .breadcrumb span.fa, #menu-main-menu li ul li a:hover, #menu-main-menu li.current_page_item ul li a:hover, #menu-main-menu > li.current-menu-ancestor > a:hover, #menu-main-menu > li.current-menu-ancestor li.current_page_ancestor li a:hover,  #menu-main-menu > li.current-menu-ancestor li.current-menu-item li a:hover,  #menu-main-menu > li.current-menu-ancestor li.current_page_item a,  #menu-main-menu > li.current-menu-ancestor li.current_page_ancestor a,  #menu-main-menu > li.current-menu-ancestor li.current-menu-item a, #menu-main-menu > li.current-menu-ancestor li.current-menu-ancestor li.current-menu-item a, #main-menu #menu-main-menu > li.current-menu-ancestor > li.current-menu-ancestor > a,  #menu-main-menu li a:hover, .header2 #main-menu #menu-main-menu > li.current_page_item > a,  .header2 #main-menu #menu-main-menu > li.current_page_item > a,  .header2 #main-menu #menu-main-menu > li.current-menu-ancestor > a, #secondary .widget ul li:hover:before, .widget_categories ul li:hover a, #footer ul.social-media li:hover a.fa, .dt-custom-service h3, .pagination-wrapper .pagination li:hover a, ul.commentlist li .author-name a, #respond h3#reply-title small a, .widget_archive ul li a:hover, footer .widget_archive ul li:hover:before, footer .widget_meta li:hover:before, footer .widget_recent_entries li:hover:before, .widget_pages li a:hover:before, footer .widget_nav_menu li a:hover:before, #footer ul li a:hover, #footer ul li h6 a, #footer .widget_tag_cloud a:hover, #secondary .widget ul li a:hover:before,  #secondary .widget ul li a:hover, #secondary .widget ul li h6 a, .dt-service:hover .fa, h3.tribe-events-month-event-title a, .dt-sc-specials-list li .item-price, #footer p.copyright a:hover, .dt-custom-service h3, footer h2 a, footer h4 a, .star-rating span:before, .star-rating:before, .woocommerce-page .star-rating:before, #main-menu > ul > li.current-menu-item > a { color:#3f1f34; }
+
+.megamenu-child-container > ul.sub-menu > li > a, .megamenu-child-container > ul.sub-menu > li > .nolink-menu { background:#E98EAA; }
+
+.breadcrumb a:hover, #main-menu #menu-main-menu > li.current-menu-ancestor > a, #main-menu #menu-main-menu > li.current-menu-ancestor > li.current-menu-ancestor > a, #menu-main-menu li a:hover, #cart-summary li a:hover  { color:#e98eaa; }
+
+.blog-post .post-content .entry-thumb .featured-post, .tagcloud a:hover, .product-thumb .featured, span.featured-product, input[type="submit"], .products .product-details a.button, .single_add_to_cart_button, .shipping-calculator-form .button, .yith-wcwl-add-to-wishlist a, .add_to_wishlist, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion.active, .dt-sc-toggle-frame h5.dt-sc-toggle.active, ul.dt-sc-tabs-frame li a.current, ul.dt-sc-tabs-vertical-frame li a.current, .woocommerce-tabs ul.tabs li.active a, .summary.entry-summary .yith-wcwl-wishlistexistsbrowse.show, .summary.entry-summary .yith-wcwl-wishlistaddedbrowse.show, .dt-sc-button, .tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"], .tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"] > a, #tribe-bar-form .tribe-bar-submit input[type="submit"], .tribe-events-nav-next a, .tribe-events-nav-previous a, .tribe-grid-allday .hentry.vevent > div:hover, .tribe-grid-body div[id*="tribe-events-event-"] .hentry.vevent:hover, .datepicker thead tr:first-child th:hover, .datepicker.dropdown-menu td.active.active, #tribe-events-content .tribe-events-tooltip h4, .tribe-events-button  { background:#3f1f34; }
+
+.breadcrumb-wrapper, pre, code, .woocommerce table.cart td.actions .coupon .input-text, .woocommerce-page table.cart td.actions .coupon .input-text, .woocommerce #content table.cart td.actions .coupon .input-text, .woocommerce-page #content table.cart td.actions .coupon .input-text, .dt-sc-tooltip-top, .dt-sc-tooltip-right, .dt-sc-tooltip-bottom, .dt-sc-tooltip-left, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="tel"], input[type="number"], input[type="range"], input[type="date"], textarea, input.text, .wp-caption, select, .dt-sc-pullquote1, .dt-sc-pullquote2, .dt-sc-pullquote3, .dt-sc-pullquote6, .post-author-details, .dt-sc-progress, .woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-range, .woocommerce #payment div.payment_box, .woocommerce-page #payment div.payment_box, .woocommerce table.shop_table tfoot th, .woocommerce-page table.shop_table tfoot th { background:#c6c8ac; }
+
+footer .woocommerce .widget_price_filter .ui-slider .ui-slider-range, footer .woocommerce-page .widget_price_filter .ui-slider .ui-slider-range { background:#3F1F34; }
+
+input[type="text"]:hover, textarea:hover,  select:hover, textarea:focus, input[type="text"]:focus,  textarea:focus,  select:focus { background-color: #bbbe9b; }
+
+.breadcrumb-wrapper, #secondary h3.widgettitle, .responsive-map, .hr-title, .menu-thumb .rounded, .catalog-menu .rounded, ul.commentlist li .comment-author img, .entry-author-image img, .dt-sc-specials-list li, .dt-sc-one-third.no-margin .catalog-menu, .dt-sc-one-fourth.no-margin .catalog-menu, .dt-sc-one-half.no-margin .catalog-menu, .dt-sc-offer-list li, .woocommerce table.shop_table td, .woocommerce-page table.shop_table td, .woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals, .single-tribe_events #tribe-events-footer, .tribe-events-day #tribe-events-footer, .events-list #tribe-events-footer, .tribe-events-map #tribe-events-footer, .tribe-events-photo #tribe-events-footer, .sorting-container a, .dt-sc-team, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="tel"], input[type="number"], input[type="range"], input[type="date"], textarea, input.text, .wp-caption, .woocommerce form.login, .woocommerce-page form.login, .woocommerce form.checkout_coupon, .woocommerce-page form.checkout_coupon, .woocommerce form.register, .woocommerce-page form.register, .woocommerce #payment div.form-row, .woocommerce-page #payment div.form-row, .gallery-slider li, select, .woocommerce table.cart td.actions .coupon .input-text, .woocommerce-page table.cart td.actions .coupon .input-text, .woocommerce #content table.cart td.actions .coupon .input-text, .woocommerce-page #content table.cart td.actions .coupon .input-text, .tribe-events-list .vevent.hentry, #tribe-bar-form input[type="text"], .wpcf7-form p select, .variations select, .woocommerce-ordering select, ul.commentlist li.comment, #tribe-events-content table.tribe-events-calendar, #tribe-events-content .tribe-events-calendar td, .pagination-wrapper .pagination li, .woocommerce table.shop_table tfoot th, .woocommerce-page table.shop_table tfoot th, #order_review .shop_table, .shop_table.order_details, .woocommerce #content table.cart td.actions .coupon .input-text, .woocommerce table.cart td.actions .coupon .input-text, .woocommerce-page #content table.cart td.actions .coupon .input-text, .woocommerce-page table.cart td.actions .coupon .input-text, .social-media li, ul.social-media, .single-tribe_events .tribe-events-event-meta { border-color:#babca4; }
+
+.dt-sc-team { background:#caccb1; }
+
+.breadcrumb span { background:url(images/breadcrumb-seperator.png) no-repeat; }
+.wpcf7-form p select, .variations select, .woocommerce-ordering select, select { background-image: url(images/responsive-nav-bg.jpg); }
+.mobile-menu { background-image:url(images/responsive-nav-bg.png); border-color:#771537; background-color:#9b2d50; }
+select.mobile-menu:focus, select.mobile-menu:hover { background-color:#952649; }
+
+input[type="text"]:hover, input[type="email"]:hover, textarea:hover,  select:hover, textarea:focus, input[type="email"]:focus, input[type="text"]:focus,  textarea:focus,  select:focus { background-color:#bcbe9f; }
+.megamenu-child-container, #menu-main-menu li.menu-item-simple-parent ul { border-bottom-color:#771537; }
+
+footer input[type="text"]:focus, footer input[type="text"]:hover, footer input[type="email"]:hover, footer input[type="email"]:focus { background-color:#6c0e2f; }
+
+.post-comments { background:#3f1f34; }
+.post-meta { background:#5e4c48; }
+
+.dt-sc-button:hover, #tribe-bar-form .tribe-bar-submit input[type="submit"]:hover, .tribe-events-nav-next a:hover, .tribe-events-nav-previous a:hover, .tribe-events-button:hover, .single_add_to_cart_button:hover, .add_to_wishlist:hover, button:hover, .button:hover, .dt-sc-social-icons .fa:hover, input[type="submit"]:hover { background-color:#34162a; }
+
+#footer, #footer p, #footer span, #footer .widget .tweet_list li:before, footer h4, #footer ul.social-media li a, #footer .textwidget ul li, #footer .footer-links li a:hover, #footer a:hover, footer h3.widgettitle, footer h3.widgettitle a, footer .widget_archive ul li a:hover, footer .widget_archive ul li a:before, footer .widget_meta li a:before, footer .widget_recent_entries li a:before, footer .widget_pages li a:before, footer .widget_nav_menu li a:before, footer ul li, #footer ul li a, #footer ul li h6 a:hover, .widget_tag_cloud a, footer .widget_recent_comments ul li:before, footer h3, footer .tribe-countdown-number, footer .tribe-countdown-colon, footer .widget_recent_comments ul li:before, footer ul.dt-sc-fancy-list li:before, footer .widget_product_search #searchform label, #footer .widget ul.social-media > li a:hover { color: #ecd7a9; }
+
+.post-meta ul li { border-color:#6e5d5a; }
+
+/********* FOOTER **************/
+#footer, footer h3.widgettitle, pre, code, .sorting-container a.active-sort, .sorting-container a:hover, .pagination-wrapper .pagination li.active-page, .dt-sc-pullquote1, .dt-sc-pullquote2, .dt-sc-pullquote3, .dt-sc-pullquote4, .dt-sc-pullquote5, .dt-sc-pullquote6, .intro-text.type2 { border-color:#771537; }
+
+.footer-info { background: #771537; }
+.footer-links li { background:url(images/footer-link-sep.png) right no-repeat; }
+
+#footer .footer-links li a, .footer-info, #footer p.copyright, #footer p.copyright a { color:#fff; }
+footer ul.social-media, footer .social-media li, .menu-thumb .rounded:hover, .catalog-menu .rounded:hover { border-color:#3f1f34; }
+
+.widget_recent_posts ul li a img:hover, .widget.widget_flickr .flickrs div img:hover, footer .woocommerce ul.cart_list li img, footer:hover .woocommerce-page ul.cart_list li img:hover, footer .woocommerce ul.product_list_widget li img:hover, footer .woocommerce-page ul.product_list_widget li img:hover, #secondary .widget_popular_entries ul li a img:hover { border-color:#771537; }
+.widget.widget_flickr .flickrs div img, .widget_recent_posts ul li a img, footer .woocommerce ul.cart_list li img, footer .woocommerce-page ul.cart_list li img, footer .woocommerce ul.product_list_widget li img, footer .woocommerce-page ul.product_list_widget li img, #secondary .widget_popular_entries ul li a img { border-color:#c2b59d; }
+
+footer input[type="text"], footer input[type="email"], .widget_categories ul li:hover a span, .pagination-wrapper .pagination li.active-page, #footer .widget_categories ul li:hover a span, .tagcloud a:hover, footer .widget.woocommerce ul li span.amount, .woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content, .woocommerce-page .widget_price_filter .price_slider_wrapper .ui-widget-content, #footer .social-media > li:hover { background:#771537; }
+
+/*----*****---- << Gallery >> ----*****----*/
+.bx-controls-direction a.bx-prev { background-image:url(images/arrow-prev.png); }
+.bx-controls-direction a.bx-next { background-image:url(images/arrow-next.png); }
+.bx-controls-direction a.bx-prev:hover, .bx-controls-direction a.bx-next:hover { background-color:#fff; }
+
+.gallery .image-overlay a span, .gallery:hover .gallery-detail .views, .gallery:hover .gallery-detail .views a.likeThis { color:#A33457; }
+
+.image-overlay { background:rgba(163, 52, 87, 0.9); background:#a33457\0/; *background:#a33457; }
+.gallery:hover { background:rgba(163, 52, 87, 0.9); background:#a33457\0/; *background:#a33457; }
+.gallery:hover .image-overlay a span:hover { color:#9a284c; }
+
+.pagination-wrapper .pagination li.active-page { border:1px solid #680d2c; color:#f7f6f2; }
+
+.dt-custom-service, .dt-service { background-color:#f4f3ee; border-color:#babca4; }
+
+ul.dt-sc-tabs-frame, .woocommerce-tabs ul.tabs, .post-icon-format, ul.dt-sc-tabs-vertical-frame li a, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion, .dt-sc-toggle-frame h5.dt-sc-toggle { background:#5e4c48; }
+ul.dt-sc-tabs-frame li, .woocommerce-tabs ul.tabs li { border-right-color:#6a6a6a; }
+
+.products .product:hover .product-wrapper { background:#5e4c48; }
+.products .product:hover .product-title { border-bottom-color:#71716f; }
+
+#tribe-events-content .tribe-events-tooltip h4, #tribe_events_filters_wrapper .tribe_events_slider_val, .single-tribe_events a.tribe-events-ical, .single-tribe_events a.tribe-events-gcal, #footer .tagcloud a:hover { color:#fff; }
+
+footer #wp-calendar caption, footer #wp-calendar td, footer #wp-calendar th { color:#ECD7A9; border-color:#ECD7A9; }
+
+.menu-sidebar li.current_page_item a, .menu-sidebar li:hover a { border-right-color:#3f1f34; }
+.summary.entry-summary .yith-wcwl-wishlistexistsbrowse.show .feedback, .summary.entry-summary .yith-wcwl-wishlistaddedbrowse.show .feedback, .breadcrumb a, .breadcrumb-wrapper h1, ul.dt-sc-tabs li a.current { color:#A33457; }
+
+.tribe-mini-calendar-nav td, .tribe-mini-calendar .tribe-events-present, .tribe-mini-calendar .tribe-mini-calendar-today { background:#A33457 !important; }
+.tribe-mini-calendar-event .list-date { background:#3F1F34 !important; }
+
+.tribe-mini-calendar-dayofweek { background:#3F1F34 !important; }
+#secondary .tribe-mini-calendar-event { border-bottom:1px solid #BABCA4; }
+footer .tribe-mini-calendar-event { border-bottom-color:#771537; }
+
+#secondary .tribe-mini-calendar td { border-color:#BABCA4; background:#E3E0D9; }
+#secondary .tribe-mini-calendar tbody tr:nth-child(2n+1) td { background:#F1EFE9; }
+#secondary .tribe-mini-calendar tbody tr:nth-child(2n+1) td.tribe-events-has-events { background:#666666; }
+footer .tribe-mini-calendar td { background:#E3E0D9; border-color:#771537; }
+
+#tribe-bar-form, .tribe-events-list-separator-month { background:#c9ccaa; }
+.tribe-bar-views-inner, #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a, .tribe-week-grid-block, .tribe-events-day .tribe-events-day-time-slot h5  { background:#bfc398; }
+.widget_categories ul li a span { background:#5E4C48; }
+.single-tribe_events .tribe-events-event-meta, .tribe-events-single ul.tribe-related-events li, #tribe-bar-form input[type="text"] { background:#d5d8b9; }
+
+#secondary .woocommerce ul.cart_list li img, #secondary .woocommerce-page ul.cart_list li img, #secondary .woocommerce ul.product_list_widget li img, #secondary .woocommerce-page ul.product_list_widget li img { border-color:#BABCA4; }
+#secondary .woocommerce ul.cart_list li img:hover, #secondary .woocommerce-page ul.cart_list li img:hover, #secondary .woocommerce ul.product_list_widget li img:hover, #secondary .woocommerce-page ul.product_list_widget li img:hover { border-color:#A33457; }
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle { background:url(images/filter.png) no-repeat; }
+.woocommerce .widget_price_filter .ui-slider .ui-state-active, .woocommerce .widget_price_filter .ui-slider .ui-state-focus, .woocommerce .widget_price_filter .ui-slider .ui-state-hover { background:url(images/filter-active.png) no-repeat; }
+
+.woocommerce #payment div.payment_box:after, .woocommerce-page #payment div.payment_box:after { border-color:#c6c8ac; }

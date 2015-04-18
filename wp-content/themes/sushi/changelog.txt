@@ -1,0 +1,47 @@
+***Sushi Restaurant WP Theme Changelog ***
+
+2013.11.19 - version 1.0
+ * First release!	
+
+2013.12.14 - version 1.1
+* Layer Slider, Revolution Slider updated
+* Responsive google map plugin updated
+* Events Calendar v.3.2 plugin support
+* Woocommerce v.2.0.20 plugin support
+* Yithemes Zoom Magnifier & Yithemes Wishlist plugin support
+* Catalog menu page side sticky nav issue fixed
+* Pullquote issue updated in DTCore plugin
+* New Mega menu added
+* New Progress chart added
+* Wordpress 3.8 compatible
+* WooCommerce & Events pages cleaned & updated
+* Some responsive & design tweaks fixed
+
+2013.12.20 - version 1.2
+* 3 types of header types added
+* New dummy content xml file updated
+* Some design issues updated
+
+2013.12.27 - version 1.3
+* Gallery Post type added
+* New dummy content xml file updated
+* New styles updated for  gallery pages
+* rtl.css updated for gallery pages
+
+2014.01.10 - version 1.4
+* New dummy content xml file updated
+* Mega menu issue fixed
+
+2014.02.25 - version 1.5
+* Post format options updated
+* 2 new skins added
+* Boxed & Fullwidth options added
+* Layer Slider 5.0.1 updated
+* Revolution Slider 4.1.4 updated
+* Gallery widget & Gallery shortcode added
+* Woocommerce 2.1.2 support
+* Yith wishlist 1.1.0, Yith magnifier 1.1.0 support 
+* Dummy content file updated
+* Mega menu animation added
+* Breadcrumb updated
+* Social icons replaced with font awesome icons

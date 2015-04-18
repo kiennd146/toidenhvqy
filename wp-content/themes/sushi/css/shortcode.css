@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----*****---- << Shortcodes >> ----*****----*/
+	
+	/*----*****---- << Buttons >> ----*****----*/
+
+	input.dt-sc-button, input[type="submit"], input[type="dt-sc-button"] { overflow: visible; /* remove padding from left/right */ width:auto !important; }
+
+	/*----*****---- << Margins >> ----*****----*/
+	
+	.margin5, .margin10, .margin15, .margin20, .margin25, .margin30, .margin35, .margin40, .margin45, .margin50, .margin55, .margin60, .margin65, .margin70, .margin75, .margin80, .margin85, .margin90, .margin100 { width:100%; clear:both; background-color:transparent; }
+	.margin5 { height:5px; }
+	.margin10 { height:10px; }
+	.margin15 { height:15px; }
+	.margin20 { height:20px; }
+	.margin25 { height:25px; }
+	.margin30 { height:30px; }
+	.margin35 { height:35px; }
+	.margin40 { height:40px; }
+	.margin45 { height:45px; }
+	.margin50 { height:50px; }
+	.margin55 { height:55px; }
+	.margin60 { height:60px; }
+	.margin65 { height:65px; }
+	.margin70 { height:70px; }
+	.margin75 { height:75px; }
+	.margin80 { height:80px; }
+	.margin85 { height:85px; }
+	.margin90 { height:90px; }
+	.margin100 { height:100px; }
+	
+	/*----*****---- << Intro Text >> ----*****----*/
+	
+	.intro-text { width:100%; margin:0px; padding:0px; float:left; }
+	.intro-text.type1 { background:#e8734f; padding:32px 0px 0px; text-align:center; }
+	.intro-text.type1 .container { width:100%; }
+	.intro-text.type1 h4 { font-size:36px; font-weight:300; padding-bottom: 25px; margin: 0 auto 30px; max-width: 944px; border-bottom: 1px solid #EDEAE5; position:relative; }
+	.intro-text.type1 h4 span { background:url(images/intro-ico.png) no-repeat scroll 10px 10px #e8734f; width:30px; height:8px; position:absolute; left:48%; bottom:-13px; padding:10px; }
+	
+	.intro-text.type1 h4, .intro-text.type1 h6 { color:#ffffff; font-style:normal; }
+	
+	.intro-text.type1 h6 span.highlight { color:#5a5a5a; margin:0px 5px; }
+	.intro-text.type1 h6 { padding-bottom:20px; line-height:32px; font-size:22px; }
+	
+	.intro-text.type2, .intro-text.type3, .intro-text.type4 { background:#f4f3ee; padding:28px 1.7% 20px; width:96.1%; }
+	
+	.intro-text.type2 { border-left:5px solid; }
+	.intro-text.type2 h2 { font-weight:300; font-style:normal; }
+	.intro-text.type2 h2 span { font-weight:bold; }
+	
+	.intro-text.type2 a.dt-sc-button.small { padding:10px 15px; margin-top:0; }
+	.intro-text.type2 h4, .intro-text.type3 h4, .intro-text.type4 h4 { text-transform:uppercase; margin-bottom:5px; }
+	.intro-text.type2 h5, .intro-text.type3 h5, .intro-text.type4 h5 { color:#a0a0a1; margin-bottom:0px; }		
+	
+	.intro-text.type3 h4, .intro-text.type3 h5 { color:#ffffff; }
+	.intro-text.type3 a { background:#ffffff url(images/btn-white-gradient.png) bottom repeat-x; color:#333334; float:right; }		
+		
+	.intro-text.type4 { width:94%; }
+	
+	/** Special Lists **/
+	.dt-sc-specials-list { float:left; width:100%; }
+	.dt-sc-specials-list li { display:inline; float:left; width:100%; border-bottom:1px solid #dbd8d2; padding:15px 0; }
+	.dt-sc-specials-list li:last-child { border:none; }
+	.dt-sc-specials-list li:before { content: "\f00c"; float:left; }
+	.dt-sc-specials-list li .item-name { float:left; width:74%; }
+	.dt-sc-specials-list li .item-price { float:right; }
+	.dt-sc-specials-list li .item-price del { color:#5a5a5a; margin-right:6px; float:left; }
+	
+	
+/*----*****---- << Progress Bars >> ----*****----*/
+	.progress-bar-wrapper { text-align:center; }
+	.progress-bar-content h4 { font-weight:600; text-transform:capitalize; }
+	.progress-bar-content span.code { margin-bottom:15px; display:inline-block; }
+	
+	/*----*****---- << progress Bar chart >> ----*****----*/
+	
+	.legend-wrapper, .legend { float:left; width:100%; }
+	.legend { margin:10px 0; }
+	
+	.legendColorBox, .legendLabel { float:left; margin-right:20px; }
+	.legendLabel { font-size:20px; }
+	.legendColorBox { height: 20px; overflow: hidden; width: 60px; }
+	
+	.orange .legendColorBox { background:#ec7e00; }
+	.blue .legendColorBox { background:#0089cf; }
+	
+	.progress-bar-wrapper .donutChart { margin:0 auto 33px; display:block; height:140px; }
+	.progress-bar-wrapper .donutChart div span { text-align:center; width:100%; font-size:50px; font-weight:normal; }
+	.progress-bar-wrapper .donutChart div { font-weight:normal; }
+	.progress-bar-wrapper .donutChart div { font-family: 'Titillium Web', sans-serif; }
+	
+	.progress-bar-wrapper .customtext { font-size: 15px; left: 0; margin: 0 auto; position: absolute; right: 0; top: 22%; }
+	.donutcharttext { font-family: 'Titillium Web',sans-serif; font-size: 45px; font-weight: normal; line-height: 32px !important; text-align: center; top: 40%; width: 100%; }
