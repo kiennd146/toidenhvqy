@@ -39,7 +39,11 @@
                         <div class="float-left">
                             <p><?php echo stripslashes(dt_theme_option('general', 'top-bar-content')); ?></p>
                         </div>
-                    <?php endif; ?>    
+                    <?php endif; ?>
+                    <?php 
+                    if(dt_theme_is_plugin_active('mqtranslate/mqtranslate.php')) {
+                        echo qtrans_generateLanguageSelectCode('image');
+                    } ?>
                     <ul id="cart-summary" class="float-right">
                         <?php if(dt_theme_option('general', 'top-bar-phoneno') != ''): ?>
                             <li><i class="fa fa-phone"></i><?php _e('Call', 'iamd_text_domain'); ?> : <?php echo stripslashes(dt_theme_option('general', 'top-bar-phoneno')); ?></li>
@@ -63,7 +67,7 @@
                                     $cart_url = $woocommerce->cart->get_cart_url();
                                     echo "<a href='".$cart_url."'>".sprintf(_n('(%d) item in cart', '(%d) items in cart', $woocommerce->cart->cart_contents_count, 'iamd_text_domain'), $woocommerce->cart->cart_contents_count)."</a> | <a href='".$cart_url."'>(".$woocommerce->cart->get_cart_total().".00)</a>";
                                 endif; ?></li><?php
-                        endif; ?>		
+                        endif; ?>	
                     </ul>
                 </div>
             </div>
