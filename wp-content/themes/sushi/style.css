@@ -936,5 +936,5 @@ Text Domain: iamd_text_domain
 	
 	.single-tribe_events .tribe-events-event-meta { display:inline-block; width:100%; }
 
-    #mqtranslate-chooser {display:inline-block;margin:0;padding:0;float:right;}
-    #mqtranslate-chooser li { float:left; margin: 15px 5px 0 0; list-style-type: none }
+    #qtranslate-chooser {display:inline-block;margin:0;padding:0;float:right;}
+    #qtranslate-chooser li { float:left; margin: 15px 5px 0 0; list-style-type: none }

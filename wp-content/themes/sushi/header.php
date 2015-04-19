@@ -41,7 +41,7 @@
                         </div>
                     <?php endif; ?>
                     <?php 
-                    if(dt_theme_is_plugin_active('mqtranslate/mqtranslate.php')) {
+                    if(dt_theme_is_plugin_active('qtranslate-x/qtranslate.php')) {
                         echo qtrans_generateLanguageSelectCode('image');
                     } ?>
                     <ul id="cart-summary" class="float-right">
