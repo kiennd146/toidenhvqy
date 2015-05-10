@@ -55,14 +55,16 @@
 	
 	if($wp_query->have_posts()): $i = 1;
 	 while($wp_query->have_posts()): $wp_query->the_post();
-	 
+        $hr = '';
 	 	$temp_class = "";
 		
-		if($i == 1) $temp_class = $article_class." first"; else $temp_class = $article_class;
+		if($i == 1) {
+            $temp_class = $article_class." first";
+            $hr = '<hr style="padding:0;margin:0;height:0"/>';
+        } else {$temp_class = $article_class;}
 		if($i == $column) $i = 1; else $i = $i + 1; ?>
-        <?php if($i == 1):?>
-        <hr style="padding:0;margin:0;height:0"/>
-        <?php endif;?>
+        
+        <?php echo $hr;?>
         <div class="<?php echo $temp_class; ?>">
             <!-- POST BLOCK STARTS -->
             <article id="post-<?php the_ID(); ?>" <?php post_class('blog-post'); ?>>
