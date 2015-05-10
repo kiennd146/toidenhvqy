@@ -387,7 +387,27 @@
                               echo "</div><!-- Category Drop Down Container end-->";
                              endif;?>
                       <p class="note"> <?php _e("You can choose certain categories to exclude from your blog page.",'iamd_text_domain');?> </p>
-                  </div><!-- Categories End-->
+                  </div>
+                  
+                  <div class="custom-box">
+                      <h3><?php _e('Include Categories','iamd_text_domain');?></h3>
+                      <?php if(array_key_exists("blog-post-include-categories",$tpl_default_settings)):
+                               $exclude_cats = array_unique($tpl_default_settings["blog-post-include-categories"]);
+                               foreach($exclude_cats as $cats):
+                                  echo "<!-- Category Drop Down Container -->
+                                        <div class='multidropdown'>";
+                                  echo  dt_theme_categorylist("blog,include_cats",$cats,"multidropdown");
+                                  echo "</div><!-- Category Drop Down Container end-->";		
+                               endforeach;
+                            else:
+                              echo "<!-- Category Drop Down Container -->";
+                              echo "<div class='multidropdown'>";
+                              echo  dt_theme_categorylist("blog,include_cats","","multidropdown");
+                              echo "</div><!-- Category Drop Down Container end-->";
+                             endif;?>
+                      <p class="note"> <?php _e("You can choose certain categories to include from your blog page.",'iamd_text_domain');?> </p>
+                  </div>
+                  <!-- Categories End-->
                </div><!-- Blog Template Settings End-->
   
                <!-- Catalog Template Settings -->
@@ -541,6 +561,7 @@
 				$settings['blog-post-excerpt'] = $_POST['mytheme-blog-post-excerpt'];
 				$settings['blog-post-excerpt-length'] = $_POST['mytheme-blog-post-excerpt-length'];
 				$settings['blog-post-exclude-categories'] = $_POST['mytheme']['blog']['exclude_cats'];
+                $settings['blog-post-include-categories'] = $_POST['mytheme']['blog']['include_cats'];
 				$settings['disable-date-info'] = $_POST['mytheme-blog-disable-date-info'];
 				$settings['disable-author-info'] = $_POST['mytheme-blog-disable-author-info'];
 				$settings['disable-comment-info'] = $_POST['mytheme-blog-disable-comment-info'];

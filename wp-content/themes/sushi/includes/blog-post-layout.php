@@ -38,6 +38,11 @@
 	$cats = array_filter(array_unique($cats));
 	
 	if(count($cats) == 0) array_push($cats, '0');
+    
+    //kngo include cat
+    $include_cats  = $meta_set['blog-post-include-categories'];
+	
+	$include_cats = array_filter(array_unique($include_cats));
 	
 	//PERFORMING QUERY...
 	if ( get_query_var('paged') ) { $paged = get_query_var('paged'); }
@@ -45,6 +50,7 @@
 	else { $paged = 1; }
 		
 	$args = array('post_type' => 'post', 'paged' => $paged, 'posts_per_page' => $limit, 'category__not_in' => $cats, 'ignore_sticky_posts' => 1);
+    if(count($include_cats) > 0) $args['category__in']  = $include_cats;
 	$wp_query = new WP_Query($args);
 	
 	if($wp_query->have_posts()): $i = 1;
