@@ -49,10 +49,13 @@
 	 while(have_posts()): the_post();
 	 
 	 	$temp_class = "";
-		
-		if($i == 1) $temp_class = $article_class." first"; else $temp_class = $article_class;
+		$hr = '';
+		if($i == 1) {
+			$temp_class = $article_class." first"; 
+			$hr = '<hr style="padding:0;margin:0;height:0"/>';
+		}else $temp_class = $article_class;
 		if($i == $column) $i = 1; else $i = $i + 1; ?>
-        
+        <?php echo $hr;?>
         <div class="<?php echo $temp_class; ?>">
             <!-- POST BLOCK STARTS -->
             <article id="post-<?php the_ID(); ?>" <?php post_class('blog-post'); ?>>
